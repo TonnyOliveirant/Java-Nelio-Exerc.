@@ -144,3 +144,32 @@ public class Exercicios02{
         }
     }
 } */
+
+/* import java.util.Scanner;
+import java.util.Locale;
+
+public class Exercicios02{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        Locale.setDefault(Locale.US);
+        double rentValue, feeValue = 0, taxAbleRent;
+        rentValue = sc.nextDouble();
+        sc.close();
+        taxAbleRent = rentValue - 2000;
+        if (rentValue <= 2000){
+            System.out.printf("Isento");
+        }
+        else if ((rentValue > 2000) && (rentValue <= 3000)) {
+            feeValue = taxAbleRent*0.08;
+            System.out.printf("R$ %.2f", feeValue);
+        } else if ((rentValue > 3000) && (rentValue <= 4500)){
+            
+            feeValue = 1000*0.08 + (taxAbleRent - 1000) * 0.18;
+            System.out.printf("R$ %.2f", feeValue);
+        }
+        else if ((rentValue > 4500)){
+            feeValue = 1000*0.08 + 1500*0.18 + (taxAbleRent - 2500) * 0.28;
+            System.out.printf("R$ %.2f", feeValue);
+        }
+    }
+} */
