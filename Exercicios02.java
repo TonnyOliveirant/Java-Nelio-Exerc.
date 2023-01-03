@@ -116,3 +116,31 @@ public class Exercicios02{
         System.out.printf("Total: R$ %.2f", totalDebit);
     }
 } */
+
+/* import java.util.Scanner;
+import java.util.Locale;
+
+public class Exercicios02{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        Locale.setDefault(Locale.US);
+        double x;
+        x = sc.nextDouble();
+        sc.close();
+        if ((x <= 25) && (x > 0)) {
+            System.out.printf("Intervalo (0,25]");
+        }
+        else if ((x <= 50) && (x > 25)) {
+            System.out.printf("Intervalo (25,50]");
+        }
+        else if ((x <= 75) && (x > 50)) {
+           System.out.printf("Intervalo (50,75]");
+        }
+        else if ((x <= 100) && (x > 75)) {
+           System.out.printf("Intervalo (75,100]");
+        }
+        else{
+            System.out.printf("Fora do intervalo");
+        }
+    }
+} */
