@@ -82,13 +82,37 @@ public class Exercicios02{
 } */
 
 
-import java.util.Scanner;
+/* import java.util.Scanner;
+import java.util.Locale;
 
 public class Exercicios02{
     public static void main(String[]args){
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        int x;
-        
+        int x, itemQty;
+        double objectPrice = 0, totalDebit;
         x = sc.nextInt();
+        itemQty = sc.nextInt();
+        sc.close();
+        if (x == 1){
+            objectPrice = 4.00;
+        }
+        else if (x == 2){
+            objectPrice = 4.50;
+        }
+        else if (x == 3){
+            objectPrice = 5.00;
+        }
+        else if (x == 4){
+            objectPrice = 2.00;
+        }
+        else if (x == 5){
+            objectPrice = 1.50;
+        }
+        else{
+            System.out.printf("Please, Select a item from the menu.");
+        }
+        totalDebit = objectPrice *itemQty;
+        System.out.printf("Total: R$ %.2f", totalDebit);
     }
-}
+} */
