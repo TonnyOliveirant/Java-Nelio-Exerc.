@@ -48,15 +48,21 @@ public class Exercicios4{
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
         int n;
+        double results;
         double realValue1, realValue2, realValue3, resultOne;
         n = sc.nextInt();
+        for (int s = 1; s < 1000; s++){
+            results = 0;
+        }
         for (int k = 1; k <= n; k++){
             realValue1 = sc.nextDouble();
             realValue2 = sc.nextDouble();
             realValue3 = sc.nextDouble();
-            resultOne = (realValue1*2 + realValue2*3 + realValue3*5)/10;
-            System.out.printf("%.1f\n", resultOne);    
+            results(k) = (realValue1*2 + realValue2*3 + realValue3*5)/10;
+            resultOne = (realValue1*2 + realValue2*3 + realValue3*5)/10;   
             }
+        for (int k = 1; k <= n; k++)
+            System.out.printf("%.1f\n", results[k]);
         sc.close();        
     }
         
