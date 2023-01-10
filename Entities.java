@@ -53,3 +53,12 @@ public class Students {
     }
 }
  */
+
+/* package Entities;
+
+public class CurrencyConverter {
+    public double myLittleConverter(double dollarCotation,double dollarQty){
+        final double valuePay = dollarCotation * dollarQty + ((dollarCotation * dollarQty)* 0.06);
+        return (valuePay);
+    }
+} */
