@@ -54,3 +54,25 @@ public class Exercicios1 {
         sc.close();
     }
 } */
+
+
+/* package Application;
+
+import Entities.Students;
+import java.util.Scanner;
+
+
+public class Exercicios3 {
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        Students alun = new Students();
+        System.out.printf ("Insert the name of the student: ");
+        alun.studentsName = sc.nextLine();
+        alun.nota1 = sc.nextDouble();
+        alun.nota2 = sc.nextDouble();
+        alun.nota3 = sc.nextDouble();
+        System.out.print(alun.boletimSystem());
+        sc.close();
+    }
+}
+ */
