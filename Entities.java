@@ -33,3 +33,23 @@ public class Rectangle {
         return Math.sqrt(width * width + height * height);
     }
 } */
+
+
+/* package Entities;
+
+public class Students {
+    public String studentsName;
+    public double nota1, nota2, nota3, finalGrade, missingPoints;
+    public String  boletimSystem(){
+        finalGrade = (nota1+nota2+nota3);
+        missingPoints = 60.00 - finalGrade;
+        if (finalGrade >= 60.00){
+            return ("Final Grade = " + finalGrade + "\nPASS");
+
+        }
+        else {
+            return ("Final Grade: " + finalGrade + "\nFailed\nMISSING " + missingPoints + " Points");
+        }
+    }
+}
+ */
