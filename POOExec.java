@@ -76,3 +76,24 @@ public class Exercicios3 {
     }
 }
  */
+ 
+ /* package Application;
+
+import java.util.Scanner;
+
+import Entities.CurrencyConverter;
+
+public class Exercicios4 {
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        double dollarCotation, dollarQty;
+        System.out.println("What is the dollar price? ");
+        dollarCotation = sc.nextDouble();
+        System.out.println("How many dollars will be bought? ");
+        dollarQty = sc.nextDouble();
+        CurrencyConverter convert = new CurrencyConverter();
+        System.out.print("The value u need to pay is: " + convert.myLittleConverter(dollarCotation, dollarQty));
+        sc.close();
+    }
+} */
+
