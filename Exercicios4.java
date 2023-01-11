@@ -126,7 +126,6 @@ public class Exercicios4{
     sc.close();
     }
 } */
-
 /* import java.util.Scanner;
 
 public class Exercicios4{
